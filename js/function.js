@@ -62,7 +62,7 @@ return {
 function marriage_check(name, m_age, m_gender){
     let m_date = new Date();
     let marriage_age = m_date.getFullYear() - m_age;
-    let congra = "Congratulations.";
+    let congra = "Congratulations,";
     let p_status = "Tomar Biyer Boyos Hoyeche. Tomar Jonne Sundor Patri Royeche";
     let sorry = "Sorry!";
     let n_status = "Tomar Biyer Boyos Hoini.";
