@@ -1,0 +1,72 @@
+.currency .form-control {
+	width: inherit;
+}
+#Amount_here{
+	margin-right: 10px;
+}
+.amount {
+	position: relative;
+}
+.amount i{
+	position:absolute;
+	left: 0;
+	top: 25px;
+	padding: 10px 10px;
+
+}
+.fa-dollar-sign{
+	display: none;
+}
+.fa-pound-sign{
+	display: none;
+}
+.fa-euro-sign{
+	display: none;
+}
+.icon_show{
+	display: block !important;
+}
+#cal_result{
+	width: 500px;
+	/* border: 1px solid #ddd; */
+	border-radius: 5px;
+	padding: 20px;
+}
+label {
+	margin-left: 5px;
+	font-weight: 600;
+}
+#cal_result p {
+	margin-top: 0;
+	margin-bottom: 0 !important;
+}
+
+.form-control:focus {
+	box-shadow:none !important;
+}
+
+.gender{
+	margin-left: 20px;
+}
+.last_name_m{
+	margin-left: 20px;
+}
+.out_put {
+	width: 70%;
+	margin: auto;
+}
+.span-2 {
+	margin-left: 46px;
+}
+.span-3 {
+	margin-left: 11px;
+}
+.span-4 {
+	margin-left: 26px;
+}
+.status {
+	width: 73%;
+	display: block;
+	float: right;
+	text-align: left;
+}
