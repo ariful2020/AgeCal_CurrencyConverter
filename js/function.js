@@ -76,39 +76,39 @@ if (marriage_age > 0 && marriage_age < 17){
     return `
     <div class="out_put">
         <h1 class="congra text-center text-warning">${sorry} ${name_con}.</h1>
-        <h4>Name  <span class="span-1">: ${name}.</span></h4>
-        <h6>Age  <span class="span-2">: ${marriage_age} Years.</h4>
-        <h6>Gender <span class="span-3">: ${m_gender}.</span></h6>
-        <h6>Status <span class="span-4">:</span><span class="status"> ${n_status}. Tumi ${kom_ase} Year Por Biye Korte Parbe.</span></h6>
+        <h3>Name  <span class="span-1">: ${name}.</span></h3>
+        <h5>Age  <span class="span-2">: ${marriage_age} Years.</h4>
+        <h5>Gender <span class="span-3">: ${m_gender}.</span></h5>
+        <h5>Status <span class="span-4">:</span><span class="status"> ${n_status}. Tumi ${kom_ase} Year Por Biye Korte Parbe.</span></h5>
     </div>
  `
 }else if (marriage_age >= 18 && marriage_age <= 35){ 
     return `
     <div class="out_put">
         <h1 class="congra text-center text-success">${congra} ${name_con}.</h1>
-        <h4>Name  <span class="span-1">:</span> ${name}.</h4>
-        <h6>Age  <span class="span-2">:</span> ${marriage_age} Years.</h6>
-        <h6>Gender <span class="span-3">:</span> ${m_gender}.</h6>
-        <h6>Status <span class="span-4">:</span><span class="status">${p_status}.</span></h6>
+        <h3>Name  <span class="span-1">:</span> ${name}.</h3>
+        <h5>Age  <span class="span-2">:</span> ${marriage_age} Years.</h5>
+        <h5>Gender <span class="span-3">:</span> ${m_gender}.</h5>
+        <h5>Status <span class="span-4">:</span><span class="status">${p_status}.</span></h5>
     </div>
  `
 }else if (marriage_age > 35 && marriage_age < 55){ 
     return `
     <div class="out_put">
         <h1 class="congra text-center text-warning">${sorry} ${name_con}.</h1>
-        <h4>Name  <span class="span-1">:</span> ${name}.</h4>
-        <h6>Age  <span class="span-2">:</span> ${marriage_age} Years.</h6>
-        <h6>Gender <span class="span-3">:</span> ${m_gender}.</h6>
-        <h6>Status <span class="span-4">:</span><span class="status"> ${permission}.</span></h6>
+        <h3>Name  <span class="span-1">:</span> ${name}.</h3>
+        <h5>Age  <span class="span-2">:</span> ${marriage_age} Years.</h5>
+        <h5>Gender <span class="span-3">:</span> ${m_gender}.</h5>
+        <h5>Status <span class="span-4">:</span><span class="status"> ${permission}.</span></h5>
     </div>
  `
 }else{
     return`<div class="out_put">
     <h1 class="congra text-center text-warning">${sorry} ${name_con}.</h1>
-    <h4>Name  <span class="span-1">:</span> ${name}. </h4>
-    <h6>Age  <span class="span-2">:</span> ${marriage_age} Years.</h6>
-    <h6>Gender <span class="span-3">:</span> ${m_gender}.</h6>
-    <h6>Status <span class="span-4">:</span><span class="status">${patri}.</span></h6>
+    <h3>Name  <span class="span-1">:</span> ${name}. </h3>
+    <h5>Age  <span class="span-2">:</span> ${marriage_age} Years.</h5>
+    <h5>Gender <span class="span-3">:</span> ${m_gender}.</h5>
+    <h5>Status <span class="span-4">:</span><span class="status">${patri}.</span></h5>
 </div>
 `
 }}
